@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            
+        }
+        th:hover {
+            background-color: powderblue;
+        }
+    th , td {
+            text-align: center;
+        }
+        td {
+                background-color: rgb(113, 126, 181);
+        }
+        td:nth-child(even) {
+            background-color: rgb(121, 173, 93);
+        }
+        th, td {
+            border-radius: 10px;
+            padding:50px;
+            border-spacing: 300px;
+            border-style: dotted;
+        }
+        </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>ANSH</h1>
-    <h2>ANSH</h2>
-    <h3>ANSH</h3>
-    <h4>ANSH</h4>
-    <h5>ANSH</h5>
-    <h6>ANSH</h6>
+    <table style="width:50px">
+        <caption>Student Details</caption>
+        <tr>
+            <th colspan="2">name</th>
+            <th>Roll no.</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ashish</td>
+            <td>38</td>
+        </tr>
+    </table>
+
+    <!-- list -->
+     <ul>
+        <li>Kashyap</li>
+        <li>Gupta</li>
+        <li>Gupta 2</li>
+        </ul>
+        
 </body>
 </html>
